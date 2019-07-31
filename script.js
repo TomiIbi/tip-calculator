@@ -1,5 +1,5 @@
 	document.getElementsById('container').onchange = function() {
-		var bill = Number(document.getElementsById('billtotal').value;
+		var bill = Number(document.getElementsById('billtotal').value);
 		var tipPercent = document.getElementsById('tipinput').value;
 		var Split = document.getElementsById('splitinput').value;
 		var tipvalue = bill * (tipPercent/100);
